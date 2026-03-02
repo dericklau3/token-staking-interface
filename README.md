@@ -1,4 +1,4 @@
-# WETH 质押页面（BSC Testnet）
+# 质押页面（BSC Testnet）
 
 这是一个基于 `React + TypeScript + Vite + ethers` 的前端项目，用于与 MasterChef 合约交互，实现 WETH 质押与奖励领取。
 
@@ -61,3 +61,17 @@ yarn preview
 
 - 不同 MasterChef 实现可能存在 ABI 差异，页面已做常见方法兼容。
 - 若自动读取质押 Token 地址失败，可手动填写 Token 地址后继续操作。
+
+## GitHub Pages 部署
+
+仓库已添加自动部署工作流：`.github/workflows/deploy-pages.yml`。
+
+首次启用请在 GitHub 仓库中操作：
+
+1. 进入 `Settings` -> `Pages`
+2. `Source` 选择 `GitHub Actions`
+3. 推送代码到 `main`（或 `master`）分支，等待工作流执行完成
+
+部署成功后访问：
+
+- `https://dericklau3.github.io/token-staking-interface/`
