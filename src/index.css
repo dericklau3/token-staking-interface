@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Avenir Next', 'Segoe UI', sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+  color: #f2f4ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 260px at 0% -10%, rgb(243 102 255 / 18%), transparent 48%),
+    radial-gradient(820px 240px at 100% 110%, rgb(77 166 255 / 14%), transparent 42%),
+    linear-gradient(180deg, #17192f 0%, #0f1120 100%);
+}
